@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/speechToTextFragment">
+
+    <fragment
+        android:id="@+id/speechToTextFragment"
+        android:name="com.itsmejunaidali.speechtotextsample.ui.speechtotext.SpeechToTextFragment"
+        android:label="fragment_speech_to_text"
+        tools:layout="@layout/fragment_speech_to_text" />
+</navigation>

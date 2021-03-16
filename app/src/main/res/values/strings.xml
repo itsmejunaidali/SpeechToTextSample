@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SpeechToTextSample</string>
+
+    <!--SpeechToText Fragment-->
+    <string name="tap_to_speak">Tap to speak</string>
+
 </resources>

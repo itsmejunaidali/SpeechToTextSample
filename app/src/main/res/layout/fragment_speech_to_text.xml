@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".ui.speechtotext.SpeechToTextFragment"
+        android:background="@drawable/bg_gradient">
+
+        <TextView
+            android:id="@+id/text_speech_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20ssp"/>
+
+        <ImageButton
+            android:id="@+id/btn_speak"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="@dimen/_75sdp"
+            android:background="@drawable/ic_mic_outline"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintTop_toBottomOf="@id/btn_speak"
+            app:layout_constraintStart_toStartOf="@id/btn_speak"
+            app:layout_constraintEnd_toEndOf="@id/btn_speak"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13ssp"
+            android:text="@string/tap_to_speak"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
