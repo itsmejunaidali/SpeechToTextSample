@@ -3,5 +3,9 @@
 
     <!--SpeechToText Fragment-->
     <string name="tap_to_speak">Tap to speak</string>
+    <string name="speech_prompt">Say something…</string>
+    <string name="speech_not_supported">Sorry! your device doesn\'t support speech input</string>
+    <string name="listening">Listening…</string>
+    <string name="something_went_wrong">Something went wrong</string>
 
 </resources>

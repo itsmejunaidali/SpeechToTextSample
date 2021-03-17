@@ -56,4 +56,7 @@ dependencies {
     implementation 'com.intuit.ssp:ssp-android:1.0.6'
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
 
+    // Dexter for runtime permissions
+    implementation 'com.karumi:dexter:6.2.2'
+
 }
